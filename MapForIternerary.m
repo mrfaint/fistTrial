@@ -10,4 +10,9 @@
 
 @implementation MapForIternerary
 
+-(void)fakeMethod {  // this is a fake method
+ 
+   NSLog(@"Discarding changes allow you to get the latest revision you have worked on it.");
+}
+
 @end
