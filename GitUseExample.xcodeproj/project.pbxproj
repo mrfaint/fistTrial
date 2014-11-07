@@ -15,6 +15,7 @@
 		A60788851A0D37C900C8D083 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A60788841A0D37C900C8D083 /* Images.xcassets */; };
 		A60788881A0D37C900C8D083 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A60788861A0D37C900C8D083 /* LaunchScreen.xib */; };
 		A60788941A0D37C900C8D083 /* GitUseExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A60788931A0D37C900C8D083 /* GitUseExampleTests.m */; };
+		A607889F1A0D497600C8D083 /* MapForIternerary.m in Sources */ = {isa = PBXBuildFile; fileRef = A607889E1A0D497600C8D083 /* MapForIternerary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		A607888D1A0D37C900C8D083 /* GitUseExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitUseExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60788921A0D37C900C8D083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A60788931A0D37C900C8D083 /* GitUseExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitUseExampleTests.m; sourceTree = "<group>"; };
+		A607889D1A0D497600C8D083 /* MapForIternerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapForIternerary.h; path = ../MapForIternerary.h; sourceTree = "<group>"; };
+		A607889E1A0D497600C8D083 /* MapForIternerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapForIternerary.m; path = ../MapForIternerary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		A60788731A0D37C900C8D083 /* GitUseExample */ = {
 			isa = PBXGroup;
 			children = (
+				A607889D1A0D497600C8D083 /* MapForIternerary.h */,
+				A607889E1A0D497600C8D083 /* MapForIternerary.m */,
 				A60788781A0D37C900C8D083 /* AppDelegate.h */,
 				A60788791A0D37C900C8D083 /* AppDelegate.m */,
 				A607887E1A0D37C900C8D083 /* ViewController.h */,
@@ -224,6 +229,7 @@
 			files = (
 				A607887A1A0D37C900C8D083 /* AppDelegate.m in Sources */,
 				A607887D1A0D37C900C8D083 /* GitUseExample.xcdatamodeld in Sources */,
+				A607889F1A0D497600C8D083 /* MapForIternerary.m in Sources */,
 				A60788801A0D37C900C8D083 /* ViewController.m in Sources */,
 				A60788771A0D37C900C8D083 /* main.m in Sources */,
 			);
